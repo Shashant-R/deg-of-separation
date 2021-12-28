@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Bungee;
+  src: url(./fonts/Bungee-Regular.ttf);
+}
+@font-face {
+  font-family: Spline;
+  src: url(./fonts/SplineSans-VariableFont_wght.ttf);
+}
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+.title{
+  font-family: Bungee, sans-serif;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+}
+h2{
+  font-weight: 400;
+}
+.input-field{
+  width: 80%;
+  margin: 20px 5%;
+  align-items: center;
+  display: flex;
+}
+.add-save{
+  width: 80%;
+  margin: 20px 5%;
+  align-items: center;
+  display: flex;
+  margin-right: 5%;
+}
+.query-field{
+  width: 80%;
+  margin: 100px 5% 20px;
+  align-items: center;
+  display: flex;
+}
+.path-reset{
+  width: 80%;
+  margin: 20px 5%;
+  align-items: center;
+  display: flex;
+}
+.sol-field{
+  width: 80%;
+  margin:100px 5%;
+  align-items: center;
+  display: flex;
+  font-family: monospace;
+  color: green;
+}
